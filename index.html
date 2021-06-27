@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+    </style>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <div class="godDiv">
+      <div class="flexed">
+        <div class="nav">
+          <h1 class="nav-title">DoJonary</h1>
+          <form action="">
+            <input type="text" id="search" name="search" placeholder="Search" />
+          </form>
+          <button onclick="logout(this)" class="btn">login</button>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <div class="left-wrapper flexedColumn">
+          <div class="id-container">
+            <div class="id-card">
+              <div class="content">
+                <div class="lefColumn">
+                  <div class="entry-name">
+                    <p class="name">ninja</p>
+                    <p><em>noun</em></p>
+                  </div>
+                  <p>Plural: ninjas</p>
+                  <button
+                    onclick="alert('ninja was liked')"
+                    class="likes-button"
+                  >
+                    0 likes
+                  </button>
+                </div>
+
+                <div class="rightColumn">
+                  <p>
+                    A practitioner skilled in the <br />
+                    <a href="https://en.wikipedia.org/wiki/Japan">Japanese</a>
+                    art of
+                    <a href="https://en.wikipedia.org/wiki/Ninjutsu"
+                      >Ninjutsu</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="id-container">
+            <div class="id-card">
+              <div class="content">
+                <div class="lefColumn">
+                  <div class="entry-name">
+                    <p class="name">ninja</p>
+                    <p><em>noun</em></p>
+                  </div>
+                  <p>Plural: ninjas</p>
+                  <button
+                    onclick="alert('ninja was liked')"
+                    class="likes-button"
+                  >
+                    0 likes
+                  </button>
+                </div>
+                <div class="rightColumn">
+                  <p>
+                    A practitioner skilled in the <br />
+                    <a href="https://en.wikipedia.org/wiki/Japan">Japanese</a>
+                    art of
+                    <a href="https://en.wikipedia.org/wiki/Ninjutsu"
+                      >Ninjutsu</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-container">
+          <div class="right-card">
+            <div class="right-content">
+              <div class="text-container">
+                <p>
+                  Dojonary is <br />
+                  defined by <b>YOU</b>
+                </p>
+              </div>
+              <div class="button-wrap">
+                <button onclick="remove(this)" class="define-button">
+                  Add definition
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
